@@ -28,7 +28,7 @@ const WeatherCard = () => {
         axios
             .get(urlWeatherComplete)
             .then( (resp) => {
-                console.log(resp)
+                console.log(resp.data)
                 setInfoWeather(resp.data)
             })
             .catch( error => console.error(error))
