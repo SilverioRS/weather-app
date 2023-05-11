@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  background: rgb(0,212,255);
+  background: -moz-radial-gradient(circle, rgba(0,212,255,1) 20%, rgba(9,36,121,1) 80%, rgba(2,0,36,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(0,212,255,1) 20%, rgba(9,36,121,1) 80%, rgba(2,0,36,1) 100%);
+  background: radial-gradient(circle, rgba(0,212,255,1) 20%, rgba(9,36,121,1) 80%, rgba(2,0,36,1) 100%);
+}
+
+.navbar {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__latlon {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+
+}
+
+.card {
+  
+  display: flex;
+  margin: 1.5rem;
+  overflow: hidden;
+  background-color: aliceblue;
+}
+
